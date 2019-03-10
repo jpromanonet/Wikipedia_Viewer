@@ -1,8 +1,8 @@
 body{
-  background-image: url('http://blavity.blavity.netdna-cdn.com/wp-content/uploads/2016/01/Wikipedia-696x392.jpg?857868');
+  background-image: url('http://www.salttechno.com/wp-content/uploads/2015/08/web-designer-pune-background.jpg');
 
   color:rgb(0,0,0);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed; 
 }
 .heading{
@@ -20,7 +20,9 @@ body{
   width:50%;
 }
 
-a { color: inherit; 
+a { 
+  color: inherit; 
+  background-color: red;
 }
 
 h2{
@@ -33,9 +35,15 @@ p{
   padding-bottom: 1%;
   padding-left:1%;
   font-size:25px;
+  background-color: #008080;
+  border-radius: 10px;
 }
 div{
   border-radius:25px;
+}
+
+img{
+margin-bottom: 1%;
 }
 
 button{
@@ -46,7 +54,6 @@ margin:1%;
   margin-top:1%;
   border-radius:25px;
   font-family: 'Ubuntu', Arial;
-  border: 3px black;
 }
 
 h2{
